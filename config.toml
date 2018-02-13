@@ -2,3 +2,18 @@ baseURL = "https://mhcerri.github.io/"
 languageCode = "en-us"
 title = "mhcerri: random notes"
 pygmentsCodeFences = true
+theme = "temple"
+
+[params]
+	# Enables syntax highlighting
+	highlight = true
+
+[taxonomies]
+	tag = "tags"
+
+[author]
+	name = "Marcelo Henrique Cerri"
+	github = "mhcerri"
+	email = "mhcerri at gmail dot com"
+	#gaid = "" # Your Google Analytics ID
+	#twitter = "" # Twitter id
