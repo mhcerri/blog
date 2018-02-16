@@ -100,7 +100,7 @@ Public Key Infrastructure (PKI)
 	# Client:
 	cp ../"$CLIENT"/pki/reqs/*.req .
 	easyrsa import-req "$CLIENT.req" "$CLIENT"
-	easyrsa sign-req server "$CLIENT"
+	easyrsa sign-req client "$CLIENT"
 	mkdir ../"$CLIENT"/pki/signed
 	cp pki/issued/"$CLIENT.crt" ../"$CLIENT"/pki/signed/
 
